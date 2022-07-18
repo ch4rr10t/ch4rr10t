@@ -17,6 +17,7 @@ Resources and cheatsheet collection
 ---------------------------------
 
 - [Pentesting Bible](https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE)
+- [Offensive security cheatsheet](https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets)
 - [infosecn1nja](https://github.com/infosecn1nja)
 - [Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit#Payload%20Development)
 - [Google CTF](https://capturetheflag.withgoogle.com/)
@@ -27,6 +28,8 @@ Resources and cheatsheet collection
 - [Botnets](https://byob.dev/)
 - [Hackxpert web pentesting labs](https://www.hackxpert.com/labs)
 - [Hacking articles](https://www.hackingarticles.in/)
+- [Anonymous FTP login](https://shahmeeramir.com/penetration-testing-of-an-ftp-server-19afe538be4b)
+- [4500+ Vulnerable Google sites](https://sguru.org/ghdb-download-list-4500-google-dorks-free/)
 
 
 ---------------------------------
