@@ -26,6 +26,7 @@ Resources and cheatsheet collection
 - [Saphyra DDOS](https://github.com/IkzCx/ProgramsForDDos/blob/master/Saphyra.py)
 - [Botnets](https://byob.dev/)
 - [Hackxpert web pentesting labs](https://www.hackxpert.com/labs)
+- [Hacking articles](https://www.hackingarticles.in/)
 
 
 ---------------------------------
