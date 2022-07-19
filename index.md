@@ -38,7 +38,7 @@ Resources and cheatsheet collection
 
 ### 📌Find IP addresses of target
 
-`$ host <SITE>
+$ host <SITE/IP>
 $ ping <SITE/IP>
 $ nslookup <SITE>`
 
