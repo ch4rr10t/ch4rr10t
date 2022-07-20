@@ -23,6 +23,7 @@ Resources and cheatsheet collection
 - ffuf/dirb/gobuster
 - Veil evasion 9evading virus scanners0
 - Metasploit
+- DNStwist [find registered and available phishing domains]
 
 
 ---------------------------------
