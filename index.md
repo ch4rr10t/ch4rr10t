@@ -44,6 +44,7 @@ Resources and cheatsheet collection
 - [Hacking articles](https://www.hackingarticles.in/)
 - [Anonymous FTP login](https://shahmeeramir.com/penetration-testing-of-an-ftp-server-19afe538be4b)
 - [4500+ Vulnerable Google sites](https://sguru.org/ghdb-download-list-4500-google-dorks-free/)
+- [MackPhish - mask phishing urls with real ones like gogle.com](https://github.com/jaykali/maskphish)
 
 
 ---------------------------------
