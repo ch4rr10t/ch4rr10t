@@ -28,6 +28,7 @@ Resources and cheatsheet collection
 - [MackPhish [mask phishing urls with real ones like gogle.com]](https://github.com/jaykali/maskphish)
 - [Port tunneling [ngrok alternatives]](https://github.com/anderspitman/awesome-tunneling)
 - [Remotemeo port tunneling](https://github.com/fasmide/remotemoe)
+- Netdiscover [find devices on network]
 
 ---------------------------------
 # LINKS
