@@ -22,8 +22,9 @@ Resources and cheatsheet collection
 - sqlmap [SQL injection and vuln. scanner]
 - nmap
 - ffuf/dirb/gobuster
-- Veil evasion 9evading virus scanners0
+- Veil evasion [evading virus scanners]
 - Metasploit
+- [wpscan [wp vuln scanner]](https://wpscan.com/wordpress-security-scanner)
 - DNStwist [find registered and available phishing domains]
 - [MackPhish [mask phishing urls with real ones like gogle.com]](https://github.com/jaykali/maskphish)
 - [Port tunneling [ngrok alternatives]](https://github.com/anderspitman/awesome-tunneling)
