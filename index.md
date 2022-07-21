@@ -29,6 +29,8 @@ Resources and cheatsheet collection
 - [Port tunneling [ngrok alternatives]](https://github.com/anderspitman/awesome-tunneling)
 - [Remotemeo port tunneling](https://github.com/fasmide/remotemoe)
 - Netdiscover [find devices on network]
+- [Googler [terminal google search]](https://github.com/jarun/googler)
+
 
 ---------------------------------
 # LINKS
