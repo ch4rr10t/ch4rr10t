@@ -16,6 +16,7 @@ Resources and cheatsheet collection
 ---------------------------------
 
 - burpsuite
+- [The Lazy Script](https://github.com/arismelachroinos/lscript)
 - [blackeye](https://github.com/An0nUD4Y/blackeye)
 - setoolkit [Social Engineering Kit]
 - sqlmap [SQL injection and vuln. scanner]
