@@ -38,6 +38,7 @@ Resources and cheatsheet collection
 ---------------------------------
 
 - [Pentesting Bible](https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE)
+- [OpneVPN config files](353448https://www.vpngate.net/en/)
 - [Offensive security cheatsheet](https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets)
 - [infosecn1nja](https://github.com/infosecn1nja)
 - [Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit#Payload%20Development)
