@@ -15,6 +15,8 @@ Resources and cheatsheet collection
 # TOOLS
 ---------------------------------
 
+- Airgeddon
+- [Evillimiter [block devices on net.]](https://github.com/bitbrute/evillimiter)
 - burpsuite
 - [The Lazy Script](https://github.com/arismelachroinos/lscript)
 - [blackeye](https://github.com/An0nUD4Y/blackeye)
