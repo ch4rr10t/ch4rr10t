@@ -17,7 +17,7 @@ Resources and cheatsheet collection
 
 - Airgeddon
 - [Routersploit [IoT-based attacks: cameras, routers...]](https://github.com/threat9/routersploit)
-- [Evillimiter [block devices on net.]](https://github.com/bitbrute/evillimiter)
+- [Evillimiter [block devices on a network]](https://github.com/bitbrute/evillimiter)
 - burpsuite
 - [The Lazy Script](https://github.com/arismelachroinos/lscript)
 - [blackeye](https://github.com/An0nUD4Y/blackeye)
