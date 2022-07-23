@@ -16,6 +16,7 @@ Resources and cheatsheet collection
 ---------------------------------
 
 - Airgeddon
+- [Routersploit [IoT-based attacks [cameras, routers...]](https://github.com/threat9/routersploit)
 - [Evillimiter [block devices on net.]](https://github.com/bitbrute/evillimiter)
 - burpsuite
 - [The Lazy Script](https://github.com/arismelachroinos/lscript)
@@ -68,7 +69,7 @@ Resources and cheatsheet collection
 # CHEATSHEET
 ---------------------------------
 
-#### Change MAC address
+#### Generate random MAC address
 `sudo macchanger -r <INTERFACE>`
 
 ### Find IP addresses of target
